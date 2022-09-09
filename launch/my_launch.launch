@@ -1,0 +1,7 @@
+<launch>
+		<node name="star_drone_node" pkg="drone_test" type="star_drone_node" output="screen"/>
+		<node name="star_detection" pkg="drone_test" type="star_detection" output="screen"/>
+		<node name="depth_tocv" pkg="drone_test" type="depth_tocv" output="screen"/>
+		<node name="light" pkg="drone_test" type="light.py" output="screen"/>
+
+</launch>
